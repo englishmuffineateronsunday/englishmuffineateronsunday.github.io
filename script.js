@@ -17,8 +17,5 @@ function reload() {
 }
 
 document.getElementById('backButton').addEventListener('click', function() {
-    window.location.href = '../index.html';
-});
-document.getElementById('settingsButton').addEventListener('click', function() {
-    window.location.href = '../sets.html';
+    window.location.href = '';
 });
