@@ -1,15 +1,3 @@
-function checkPassword() {
-    const correctPassword = 'test';
-    const password = prompt('');
-    if (password === correctPassword) {
-        console.log("Authed")
-    } else {
-        window.location.href = '../sets.html';
-    }
-}
-document.addEventListener('DOMContentLoaded', checkPassword);
-
-
 function fullscreen() {
     const iframe = document.getElementById('filePresenter');
     if (iframe.requestFullscreen) {
